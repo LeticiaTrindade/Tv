@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="styleTv.css" />
+    <link rel="stylesheet" type="text/css" href="styleRemoteControl.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body class=" body ">
+
+    <h1>TV da prof Lelly</h1>
+    <br/><br/>
+<div class="d-flex justify-content-around ">
+    <audio id="audio" src="pii.mp3"></audio>
+
+    <canvas class="television " id="tv" width="800px" height="600px"></canvas>
+
+    <div class="remoteControl ">
+        <div class="volume d-flex justify-content-between">
+            <button onclick="off()" class="off">Off</button>
+            <button onclick="mutar()">🔇</button>
+        </div>
+        <br />
+        <div class="numbers d-flex align-content-start flex-wrap">
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="number">0</button>
+        </div>
+        <br />
+        <div class="volume d-flex justify-content-between">
+            <button class="number">🔊</button>
+            <button class="number">🔉</button>
+        </div>
+        <br />
+        <div class="channel d-flex justify-content-between">
+            <button class="number">+</button>
+            <button class="number">-</button>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

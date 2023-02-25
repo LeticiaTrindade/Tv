@@ -1,0 +1,9 @@
+.body{
+    background-color: black;
+    margin: 5rem;
+}
+
+h1{
+    color: pink !important;
+    text-align: center;
+}

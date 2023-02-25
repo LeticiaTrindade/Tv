@@ -1,0 +1,15 @@
+.television {
+    background-image: url("noSignal.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 800px;
+    height: 600px;
+    border: 10px ridge lightgray;
+
+    -webkit-box-shadow: -2px 0px 41px -3px rgba(255, 255, 255, 0.29);
+    -moz-box-shadow: -2px 0px 41px -3px rgba(255, 255, 255, 0.29);
+    box-shadow: -2px 0px 41px -3px rgba(255, 255, 255, 0.29);
+}
+

@@ -1,0 +1,35 @@
+.remoteControl{
+    background-color: rgb(75, 68, 68);
+    height: 400px;
+    max-width: 200px;
+    padding: 20px;
+}
+
+.remoteControl .off{
+    background-color: rgb(252, 102, 102);
+    border-color:rgb(252, 102, 102);
+}
+
+.remoteControl button{
+    min-width: 50px;
+    background-color: rgb(38, 128, 86);
+    border: 2px outset rgb(38, 128, 86);
+    border-radius: 5px;
+}
+
+.remoteControl button:hover{
+    background-color: rgb(27, 90, 60);
+}
+
+.remoteControl button:active{
+    border-style: inset;
+}
+
+.remoteControl .off:active{
+    background-color: rgb(252, 102, 102);
+    border-color:rgb(252, 102, 102);
+}
+
+.remoteControl .off:hover{
+    background-color: rgb(211, 83, 83);
+}
